@@ -14,18 +14,22 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+.center {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 5%;
+}
+.center--small {
+    text-align: center;
+}
 h1 {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -100%);
-    -ms-transform: translate(-50%, -100%);
-    transform: translate(-50%, -100%);
     font-size: 2em;
     line-height: 1;
     color: #FF4F00;
 }
-
+.link-unstyled {
+    text-decoration: none;
+}
 em {
     font-style: normal;
     color: rgb(0, 46, 162);
@@ -40,14 +44,19 @@ em {
 </style>
 </head>
 <body>
-<a href="https://www.meetup.com/Oulu-Web-Development/">
-    <h1>
-        <em>Oulu</em>
-        <br />
-        <small style="color: rgb(0, 46, 162);">Web&nbsp;Development</small>
-        <br />
-        <small style="color: #ed1c40;">Meetup</small>
-    </h1>
-</a>
+<div class="center">
+    <a class="link-unstyled" href="https://www.meetup.com/Oulu-Web-Development/">
+        <h1>
+            <em>Oulu</em>
+            <br />
+            <span style="color: rgb(0, 46, 162);">Web&nbsp;Development</span>
+            <br />
+            <span style="color: #ed1c40;">Meetup</span>
+        </h1>
+    </a>
+    <div class="center--small">
+        <script async defer src="https://ouluwebdevslackin.herokuapp.com/slackin.js?large"></script>
+    </div>
+</div>
 </body>
 </html>
