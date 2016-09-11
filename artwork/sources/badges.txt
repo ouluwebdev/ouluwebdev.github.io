@@ -1,0 +1,20 @@
+browserify adventure
+learnyounode
+stream adventure
+functional javascript
+bytewiser
+git-it
+levelmeup
+promise it won't hurt
+async you
+expressworks
+make me hapi
+planet proto
+nodebot workshop
+lololodash
+kick off koa
+shader school
+going native
+bug clinic
+count to 6
+intro to webgl with three.js
